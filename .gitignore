@@ -1,0 +1,23 @@
+# Derlenmiş dosyalar
+*.exe
+*.o
+*.out
+
+# Büyük veri setleri ve loglar
+RawData/*
+!RawData/.gitkeep
+
+Processed/*
+!Processed/.gitkeep
+
+Storage/Raw/*
+!Storage/Raw/.gitkeep
+
+Storage/Hashed/*
+!Storage/Hashed/.gitkeep
+
+Storage/Compressed/*
+!Storage/Compressed/.gitkeep
+
+Results/*
+!Results/.gitkeep
